@@ -2,3 +2,45 @@
     box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
 }
+
+/* HEADER BLOCK */
+
+.header {
+    background-color: #EEE;
+}
+
+.hero {
+    text-align: center;
+}
+
+
+/* MAIN BLOCK */
+
+.main-title {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+
+.card {
+    border-radius: 0.1875rem;
+    background: #EBEBEB;
+}
+
+.card-large {
+    grid-column: 1 / span 2;
+    border-radius: 0.1875rem;
+    background: #343332;
+}
+
+
+/* FOOTER BLOCK */
+
+.footer-card {
+    text-align: center;
+}
