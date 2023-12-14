@@ -13,23 +13,65 @@
     text-align: center;
 }
 
+.hero__title {
+    color: #222;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.hero__text {
+    color: rgba(34, 34, 34, 0.80);
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.125rem
+}
+
+.hero-button {
+    border: none;
+    border-radius: 0.375rem;
+    background-color: #222;
+}
+
+.hero-button__text {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem
+}
 
 /* MAIN BLOCK */
 
-.main-title {
+.wrapper {
     text-align: center;
+}
+
+.main-title {
+    color: #222;
+    font-size: 2.25rem;
+    font-weight: 700;
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    text-align: center;
 }
 
 .card {
     border-radius: 0.1875rem;
     background: #EBEBEB;
+}
+
+.card__title {
+    color: #222;
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.card__text {
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .card-large {
@@ -38,9 +80,53 @@
     background: #343332;
 }
 
+.card-large__title {
+    color: #FFF;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.card-large__text {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.button {
+    background-color: #343332;
+    border-radius: 0.1875rem;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.01275rem;
+}
 
 /* FOOTER BLOCK */
 
+
 .footer-card {
     text-align: center;
+    border-radius: 0.1875rem;
+    background: #FFF;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
+}
+
+.footer-card__title {
+    color: #222;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.footer-card__text {
+    color: rgba(34, 34, 34, 0.80);
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.footer-card__body {
+    color: rgba(34, 34, 34, 0.60);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.3125rem;
 }
