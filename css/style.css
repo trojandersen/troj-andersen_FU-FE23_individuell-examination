@@ -103,9 +103,13 @@
 
 .card-large {
     grid-column: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 0.1875rem;
     background: #343332;
-    padding: 1rem;
+    padding: 5rem;
 }
 
 .card-large__title {
@@ -121,6 +125,10 @@
 }
 
 .button {
+    margin-top: 2.5rem;
+    width: 9.125rem;
+    height: 2.5rem;
+    flex-shrink: 0;
     background-color: #343332;
     border-radius: 0.1875rem;
     border: 1px solid rgba(255, 255, 255, 0.60);
@@ -157,4 +165,14 @@
     font-size: 0.875rem;
     font-weight: 500;
     line-height: 1.3125rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .card-large {
+        grid-column: auto / span 2;
+    }
 }
