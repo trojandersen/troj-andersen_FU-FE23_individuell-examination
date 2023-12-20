@@ -68,6 +68,9 @@
     line-height: 1.5rem
 }
 
+.hero__image {
+    margin-bottom: -4px;
+}
 /* MAIN BLOCK */
 
 .wrapper {
@@ -207,8 +210,19 @@
         display: none;
     }
 
+    .wrapper {
+        margin-top: 7rem;
+    }
+
+    .main-title {
+        font-size: 3.3125rem;
+    }
+    
     .container {
         grid-template-columns: repeat(4, 1fr);
+        row-gap: 4rem;
+        column-gap: 1.87rem;
+        margin: 5rem 10rem;
     }
 
     .card-large {
